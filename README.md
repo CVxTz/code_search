@@ -8,6 +8,8 @@ Download files "python_how_to_do_it_qid_*.pickle" from this repository.
 
 ## Run
 
+Install Pytorch torch==1.10.1 then do:
+
 ```commandline
 python -m pip install -e .
 ```
