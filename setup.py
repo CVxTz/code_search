@@ -23,5 +23,7 @@ setup(
     classifiers=[
         "Topic :: Utilities",
     ],
+    data_files=[('code_search', ['code_search/tokenizer.json'])],
+    include_package_data=True,
     install_requires=REQUIRED,
 )
